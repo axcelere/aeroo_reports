@@ -3,7 +3,7 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
 import json
 import mimetypes
-from werkzeug import url_decode
+from werkzeug.urls import url_decode
 
 from odoo.http import route, request, content_disposition
 
